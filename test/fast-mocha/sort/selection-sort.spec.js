@@ -1,7 +1,7 @@
 import sort from 'sort/selection-sort';
 
 describe('selection sort', () => {
-  it('is not implemented yet', () => {
-    expect(sort([1, 2, 3])).to.eql([1, 2, 3]);
+  it('sorts out-of-order list', () => {
+    expect(sort([3, 1, 2])).to.eql([1, 2, 3]);
   });
 });
